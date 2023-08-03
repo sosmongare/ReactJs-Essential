@@ -56,5 +56,19 @@
         );
 
     </script>
+
+    <!-- working with dynamic content -->
+    <script type="text/babel">
+        let name = "Sospeter";
+        ReactDOM.render(
+            <ul>
+                <li>{name}</li>
+                <li>{name.length}</li>
+                <li>{name.toUpperCase()}</li>
+            </ul>,
+            document.getElementById("root2")
+        );
+
+    </script>
 </body>
 </html>
